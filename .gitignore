@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoint/
+checkpoints/
+
+# Models & Weights (保留最佳模型，忽略其他)
+save_model/*
+!save_model/best.pt
+!save_model/.gitkeep
+*.bin
+*.safetensors
+
+# 预训练模型缓存
+assets/models/*
+!assets/models/.gitkeep
+.cache/
+huggingface/
+
+# 数据文件
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.txt
+*.csv
+*.tsv
+*.json
+*.jsonl
+!requirements.txt
+!*vocab*.json
+
+# 输出文件
+output/
+outputs/
+results/
+logs/
+*.log
+batch_runs/
+temp_files/
+temp_scripts/
+
+# 图片和可视化（如果太大）
+*.png
+*.jpg
+*.jpeg
+*.gif
+!assets/images/textcnn_architecture.png
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.pdf
+!report.pdf
+!**/report.pdf
+
+# 大文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+.~*
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 测试文件
+test_output/
+debug/

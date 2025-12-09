@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/*.log
+
+# Models and Cache
+save_model/
+assets/models/
+models--*/
+
+# Temporary files
+temp_files/
+temp_scripts/
+nul
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fls
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Data
+*.json
+*.csv
+*.tsv
+!dataset/*.json
+!vocab.json
+
+# PDF (keep only in docs)
+!docs/*.pdf
+*.pdf

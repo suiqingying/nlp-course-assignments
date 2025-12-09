@@ -97,11 +97,6 @@ temp_scripts/
 *.snm
 *.vrb
 *.xdv
-*.pdf
-!report.pdf
-!**/report.pdf
-!期末报告模板/*.pdf
-!期末报告模板/*.tex
 
 # 大文件
 *.zip

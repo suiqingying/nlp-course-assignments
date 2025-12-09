@@ -81,15 +81,6 @@ batch_runs/
 temp_files/
 temp_scripts/
 
-# 图片和可视化（如果太大）
-*.png
-*.jpg
-*.jpeg
-*.gif
-!assets/images/textcnn_architecture.png
-!期末报告模板/preview.png
-!期末报告模板/preview.jpg
-
 # LaTeX
 *.aux
 *.bbl

@@ -87,6 +87,8 @@ temp_scripts/
 *.jpeg
 *.gif
 !assets/images/textcnn_architecture.png
+!期末报告模板/preview.png
+!期末报告模板/preview.jpg
 
 # LaTeX
 *.aux
@@ -107,6 +109,8 @@ temp_scripts/
 *.pdf
 !report.pdf
 !**/report.pdf
+!期末报告模板/*.pdf
+!期末报告模板/*.tex
 
 # 大文件
 *.zip
